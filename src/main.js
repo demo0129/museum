@@ -6,11 +6,14 @@ import router from './router'
 import fastClick from 'fastclick'
 import './assets/styles/reset.css'
 import './assets/styles/border.css'
+import './assets/styles/iconfont.css'
+import animate from 'animate.css'
 import axios from 'axios'
 
 Vue.config.productionTip = false
 fastClick.attach(document.body)
 Vue.prototype.$axios = axios
+Vue.use(animate)
 
 /* eslint-disable no-new */
 new Vue({

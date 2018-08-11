@@ -67,7 +67,7 @@ export default {
     display flex
     align-items center
     height .7rem
-    padding 10px
+    padding .2rem
     .seller-img
       width 40%
       height 100%
@@ -79,25 +79,25 @@ export default {
       display flex
       justify-content flex-end
       .guanzhu
-        padding 5px 13px 5px 15px
+        padding .1rem .26rem .1rem .3rem
         border 1px solid #46587C
-        border-radius 12px
-        margin-right 15px
+        border-radius .24rem
+        margin-right .3rem
         color #ffffff
         background #46587C
-        letter-spacing 2px
-        font-size 12px
+        letter-spacing .04rem
+        font-size .24rem
         &.guan-active
           color #46587C
           background #ffffff
       .qiandao
-        padding 5px 13px 5px 15px
+        padding .1rem .26rem .1rem .3rem
         border 1px solid #46587C
-        border-radius 12px
+        border-radius .24rem
         color #46587C
         background #ffffff
-        letter-spacing 2px
-        font-size 12px
+        letter-spacing .04rem
+        font-size .24rem
   .guanzhu-wrapper
     z-index 50
     position fixed
@@ -113,12 +113,12 @@ export default {
       position relative
       width 5rem
       height 10rem
-      padding 10px
+      padding .2rem
       background #fff
       animation-duration 0.2s
       .close-btn
         position absolute
         bottom .2rem
         right 50%
-        font-size 30px
+        font-size .6rem
 </style>

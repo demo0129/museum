@@ -99,6 +99,7 @@ export default {
         letter-spacing 2px
         font-size 12px
   .guanzhu-wrapper
+    z-index 50
     position fixed
     top 0
     right 0
